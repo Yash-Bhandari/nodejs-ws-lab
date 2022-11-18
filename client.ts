@@ -12,7 +12,7 @@ const DEBUG = false; // Render debug physics entities
 
 class GameScene extends Phaser.Scene {
   private HOST = window.location.hostname; // localhost and 127.0.0.1 handled
-  private PORT = 8080; // change this if needed
+  private PORT = 5000; // change this if needed
 
   private VELOCITY = 100;
   private wsClient?: WebSocket;
